@@ -1,0 +1,43 @@
+.NewPokemon{
+  width: 38vw;
+  height: 28vh;
+
+  border-radius: 7px;
+
+  background-color: #f9cb09;
+
+  margin-top: 1.5vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemon-pic{
+  width: 30vw;
+  height: 23vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-pic img{
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-name{
+  width: 30vw;
+  height: 7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pokemon-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}

@@ -1,0 +1,60 @@
+.MyPokemon{
+  width: 38vw;
+  height: 28vh;
+
+  border-radius: 7px;
+
+  background-color: #f9cb09;
+
+  margin-top: 1vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delete-button{
+  width: 32vw;
+  height: 3vh;
+
+  margin-top: 1vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.delete-button img{
+  width: 13px;
+  height: 13px;
+}
+
+.my-pokemon-pic{
+  width: 20vw;
+  height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-pokemon-pic img{
+  width: 100px;
+  height: 100px;
+}
+
+.my-pokemon-name{
+  width: 30vw;
+  height: 7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.my-pokemon-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}

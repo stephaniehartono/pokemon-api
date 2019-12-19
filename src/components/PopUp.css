@@ -1,0 +1,76 @@
+.pop-up-container{
+  width: 100%;
+  height: 100%;
+
+  background-color: black;
+  opacity: 0.95;
+  top: 0;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+}
+
+.PopUp{
+  height: 25vh;
+  width: 55vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 7px;
+  background-color: #f9cb09;
+}
+
+.poke-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.p-pic img{
+  width: 60px;
+
+  margin-left: 4vw;
+}
+
+.popup-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 4vw;
+
+  margin-left: 4vw;
+}
+
+.popup-text-2{
+  margin-top: 2vh;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+}
+
+.submit-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  color: white;
+}
+
+.submit-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 20px;
+  background-color: black;
+  border-radius: 9px;
+
+  margin-top: 2.5vh;
+}

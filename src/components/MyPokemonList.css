@@ -1,0 +1,59 @@
+.MyPokemonList{
+  width: 100vw;
+  height: 75vh;
+
+  background-color: #fcf5a5;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.top-container{
+  width: 83vw;
+  height: 10vh;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.backto-button{
+  width: 5vw;
+  align-self: center;
+}
+
+.backto-button img{
+  width: 20px;
+  height: 20px;
+}
+
+.my-list-text-container{
+  width: 37vw;
+  align-self: center;
+  margin-bottom: 1vh;
+}
+
+.my-bottom-container{
+  width: 85vw;
+  height: 50vh;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  overflow-y: scroll;
+}
+
+.my-list-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

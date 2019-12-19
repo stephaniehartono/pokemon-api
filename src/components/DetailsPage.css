@@ -1,0 +1,117 @@
+.DetailsPage{
+  width: 100vw;
+  height: 70vh;
+
+  background-color: #fcf5a5;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.back-button{
+  width: 85vw;
+  height: 3vh;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.back-button img{
+  width: 20px;
+  height: 20px;
+}
+
+.poke-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+
+  margin-bottom: -50px;
+}
+
+.details-container{
+  width: 85vw;
+  height: 50vh;
+
+  border-radius: 7px;
+  background-color: white;
+
+  flex-direction: column;
+}
+
+.poke-name-container{
+  width: 85vw;
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.type-container{
+  width: 85vw;
+  height: 13vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.types{
+  width: 85vw;
+  height: 6vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.move-container{
+  height: 27vh;
+  width: 85vw;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.moves{
+  width: 85vw;
+  height: 22vh;
+
+  margin-top: .5vh;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: column;
+
+  overflow-y: scroll;
+
+  padding: 2px;
+}
+
+.poke-name-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.type-move-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  text-decoration: underline;
+}

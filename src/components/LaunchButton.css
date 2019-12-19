@@ -1,0 +1,20 @@
+.LaunchButton{
+  width: 40vw;
+  height: 5vh;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  background-color: #f9cb09;
+}
+
+.display-none{
+  display: none;
+}
+
+.button-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}

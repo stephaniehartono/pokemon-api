@@ -1,0 +1,19 @@
+.Homepage{
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.Homepage-change{
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 25vh;
+}
